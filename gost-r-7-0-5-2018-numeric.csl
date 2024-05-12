@@ -587,10 +587,10 @@
   <bibliography et-al-min="5" et-al-use-first="3">
     <sort>
       <!-- Строка для сортировки в порядке появления ссылок, а не в алфавитном. Чтобы задействовать, нужно ее раскомментировать, а следующие три закомментировать -->
-      <key variable="citation-number"/>
-      <!-- <key macro="language-sort"/>
+      <!-- <key variable="citation-number"/> -->
+      <key macro="language-sort"/>
       <key macro="author-title"/>
-      <key variable="issued"/> -->
+      <key variable="issued"/>
     </sort>
     <layout>
       <text macro="bibliography"/>
